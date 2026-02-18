@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+div {
+  width: 11rem;
+  height: 11rem;
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 7rem;
+  height: 7rem;
+  font-size: 4rem;
+  border-radius: 20px;
+}
+
+main > button{
+  background-color: transparent;
+  border: none;
+}
+
+button:active {
+  transform: scale(.95);
+}
+
+button:hover {
+  opacity: .7;
+}
